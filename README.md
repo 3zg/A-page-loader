@@ -1,11 +1,27 @@
 # Page Loader & Refresher
-> A page loader/refresher that uses an ChromeDriver.                                                                  
-This was mainly used for my GitHub but can be used to test your sites etc
 
-# Setup
-> 1) Clone this git repo.
-> 2) ``Install modules from requirements.txt``.
-> 3) Install verison `96.0.4664.45`chrome driver.
-> 4) change `line 19` to your site or github page.
+A tool using ChromeDriver to automatically load and refresh web pages.
 
-`OPTIONAL` If you are not using github, you can change `line 12` to how many times max it can refresh at one time. (Github spam is 70)
+## Features
+- Automates page loading and refreshing
+- Configurable refresh count
+- Ideal for testing websites or increasing GitHub profile views
+
+## Requirements
+- Python 3.x
+- Selenium WebDriver
+- ChromeDriver version 96.0.4664.45
+
+## Setup
+1. Clone this repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Download and install ChromeDriver 96.0.4664.45
+   
+## Usage
+Run the script: `python page_refresher.py`
+
+## Disclaimer
+Use responsibly and in compliance with website terms of service.
+
+## License
+[MIT License](LICENSE)
